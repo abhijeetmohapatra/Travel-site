@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lugrasimo&display=swap');
+
+.mbg3 {
+    background-color: bisque;
+    background-size: auto;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lugrasimo', cursive;
+}
+/* Add this CSS to your style.module.css file */
+
+.imgHover:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+/* Add this CSS to your style.module.css file */
+
+/* Add this CSS to your style.module.css file */
+.lineHover {
+    transition: transform 0.2s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+
+.lineHover:hover {
+    transform: scale(1.1); /* Increase the scale for a pop effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow for depth */
+    cursor: pointer; /* Optional: Change cursor to a pointer on hover */
+  }
+.text{
+    cursor: pointer;
+}
+  
+  
